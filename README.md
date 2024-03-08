@@ -52,9 +52,8 @@ pip install pyg-nightly
 
 To install the rest of the requirements execute the following command:
 ```shell
-pip install pytorch_lightning partitura 
+pip install pytorch_lightning partitura captum
 ```
-
 
 ## Generating Explanations for Cadence Detection
 
@@ -65,6 +64,7 @@ To run the model several requirements are needed, therefore the process is a bit
 The example demonstrates how to use a graph-based `cadence` detection model to explain the predictions made by the model. The `cadence` model is a deep learning model that detects the cadence of a musical score. The model is trained on a dataset of musical scores and their corresponding cadences. 
 The model takes a musical score as input and outputs a cadence label for every note, export the score to MEI and generate a JSON file with the explanations.
 
+To open in colab click on this [link](https://colab.research.google.com/github/manoskary/smug-explain/blob/main/notebooks/SMUG-Explain.ipynb)
 
 ### Some Remarks
 
