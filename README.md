@@ -1,6 +1,6 @@
 [//]: # (add the smug explain image from assets)
 <p align="center">
-    <img src="./assets/smug-explain.png" height="200">
+    <img src="./assets/smug_explain.png" height="400">
 </p>
 
 # SMUG-Explain
