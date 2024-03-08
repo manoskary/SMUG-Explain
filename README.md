@@ -1,3 +1,8 @@
+[//]: # (add the smug explain image from assets)
+<p align="center">
+    <img src="./assets/smug-explain.png" height="200">
+</p>
+
 # SMUG-Explain
 SMUG-Explain stands for Symbolic MUsic Graph Explanations. 
 It is a framework for generating and visualizing explanations of graph neural networks 
