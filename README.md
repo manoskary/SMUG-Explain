@@ -15,7 +15,11 @@ the task of cadence detection in classical music.
 
 ## Installation and Usage
 
-To use SMUG-Explain you don't need to install anything. 
+To use SMUG-Explain you don't need to install anything. Download the repo or clone it by opening a terminal and typing:
+```shell
+git clone https://github.com/manoskary/smug-explain.git
+```
+Then navigate to the folder and open the `index.html` file in your browser.
 You need to open the `index.html` file in your browser (for example by double-clicking) and follow the instructions.
 You will need to provide a MEI file and a JSON file with the explanations or use one of the already available in the static folder.
 
