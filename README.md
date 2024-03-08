@@ -14,6 +14,42 @@ To use SMUG-Explain you don't need to install anything.
 You need to open the `index.html` file in your browser (for example by double-clicking) and follow the instructions.
 You will need to provide a MEI file and a JSON file with the explanations or use one of the already available in the static folder.
 
+### Python Dependencies
+In case you want to run the model and generate the explanations locally, you will need to install the some dependencies.
+We recommend creating a virtual environment with [Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python).
+After installing conda for you system do the following steps on your terminal.
+```shell
+conda create -n smug-explain python=3.11 pip
+conda activate smug-explain
+```
+
+This repository was using Pytorch version 2.1.2, please follow the Pytorch instructions for your system [here](https://pytorch.org/get-started/previous-versions/#v212)
+After the installation of Pytorch you can install the rest of the requirements.
+The graph dependencies were built upon Pytorch Geometric we recommend executing the following steps with Conda:
+```shell
+conda install pyg -c pyg
+pip install --verbose git+https://github.com/pyg-team/pyg-lib.git
+pip install --verbose torch_scatter
+pip install --verbose torch_sparse
+pip install --verbose torch_cluster
+pip install --verbose torch_spline_conv
+```
+
+
+### Important Note
+
+As of the time of writing this README, the Pytorch Geometric library has not release the latest version 
+which contains components important for the development of this repository.
+If the latest version of Pytorch Geometric is still 2.4.0 please install the latest version from the master branch instead, with:
+```shell
+pip install pyg-nightly
+```
+
+To install the rest of the requirements execute the following command:
+```shell
+pip install pytorch_lightning partitura 
+```
+
 
 ## Generating Explanations for Cadence Detection
 
