@@ -1,0 +1,2179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>P1</title>
+      </titleStmt>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score xml:id="score-0000000001">
+          <scoreDef xml:id="scoredef-0000000002">
+            <staffGrp xml:id="staffgrp-0000000003">
+              <staffDef n="1" xml:id="staffdef-0000000004" lines="5">
+                <clef xml:id="clef-0000000005" shape="G" line="2"/>
+                <keySig xml:id="keysig-0000000006" mode="major" sig="4f" pname="a"/>
+                <meterSig xml:id="msig-0000000007" count="6" unit="8"/>
+              </staffDef>
+              <staffDef n="2" xml:id="staffdef-0000000008" lines="5">
+                <clef xml:id="clef-0000000009" shape="F" line="4"/>
+                <keySig xml:id="keysig-0000000010" mode="major" sig="4f" pname="a"/>
+                <meterSig xml:id="msig-0000000011" count="6" unit="8"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="section-0000000012">
+            <measure n="1" xml:id="measure-0000000013">
+              <staff n="1" xml:id="staff-0000000014">
+                <layer n="1" xml:id="voice-0000000015">
+                  <beam xml:id="beam-0000000020">
+                    <note dur="8" xml:id="p0n0" dots="1" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n3" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n4" oct="5" pname="c"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n6" oct="5" pname="c"/>
+                  <note dur="8" xml:id="p0n7" oct="5" pname="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000016">
+                <layer n="5" xml:id="voice-0000000017">
+                  <chord xml:id="chord-0000000018" dur="4">
+                    <note dur="4" xml:id="p0n1" oct="3" pname="f"/>
+                    <note dur="4" xml:id="p0n2" oct="3" pname="a" accid.ges="f"/>
+                  </chord>
+                  <rest dur="2" xml:id="rest-0000000019"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="2" xml:id="measure-0000000021">
+              <staff n="1" xml:id="staff-0000000022">
+                <layer n="1" xml:id="voice-0000000023">
+                  <note dur="4" xml:id="p0n8" dots="1" oct="5" pname="f" tie="i"/>
+                  <beam xml:id="beam-0000000034">
+                    <note dur="8" xml:id="p0n14" oct="5" pname="f" tie="t"/>
+                    <note dur="8" xml:id="p0n18" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n21" oct="5" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000024">
+                  <beam xml:id="beam-0000000033">
+                    <note dur="8" xml:id="p0n9" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n12" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n13" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="8" xml:id="p0n15" oct="4" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000025"/>
+                  <rest dur="8" xml:id="rest-0000000026"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000027">
+                <layer n="5" xml:id="voice-0000000028">
+                  <chord xml:id="chord-0000000029" dur="4">
+                    <note dur="4" xml:id="p0n10" dots="1" oct="3" pname="b" tie="i" accid.ges="f"/>
+                    <note dur="4" xml:id="p0n11" dots="1" oct="4" pname="d" tie="i" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000030" dur="8">
+                    <note dur="8" xml:id="p0n16" oct="3" pname="b" tie="t" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n17" oct="4" pname="d" tie="t" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000031"/>
+                  <rest dur="8" xml:id="rest-0000000032"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="3" xml:id="measure-0000000035">
+              <staff n="1" xml:id="staff-0000000036">
+                <layer n="1" xml:id="voice-0000000037">
+                  <note dur="2" xml:id="p0n24" dots="1" oct="5" pname="c"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000038">
+                  <chord xml:id="chord-0000000039" dur="4">
+                    <note dur="4" xml:id="p0n25" dots="1" oct="4" pname="e" tie="i"/>
+                    <note dur="4" xml:id="p0n26" dots="1" oct="4" pname="g" tie="i"/>
+                  </chord>
+                  <beam xml:id="beam-0000000048">
+                    <chord xml:id="chord-0000000040" dur="8">
+                      <note dur="8" xml:id="p0n31" oct="4" pname="e" tie="t"/>
+                      <note dur="8" xml:id="p0n32" oct="4" pname="g" tie="t"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000041" dur="8">
+                    <note dur="8" xml:id="p0n34" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n35" oct="4" pname="a" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000042" dur="8">
+                    <note dur="8" xml:id="p0n36" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n37" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000043">
+                <layer n="5" xml:id="voice-0000000044">
+                  <rest dur="2" dots="1" xml:id="rest-0000000045"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000046">
+                  <beam xml:id="beam-0000000047">
+                    <note dur="8" xml:id="p0n27" dots="1" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n29" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n30" oct="4" pname="c"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n33" dots="1" oct="4" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="4" xml:id="measure-0000000049">
+              <staff n="1" xml:id="staff-0000000050">
+                <layer n="1" xml:id="voice-0000000051">
+                  <beam xml:id="beam-0000000056">
+                    <note dur="8" xml:id="p0n38" dots="1" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n42" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n44" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n46" dots="1" oct="4" pname="a" tie="i" accid.ges="f"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000052">
+                  <beam xml:id="beam-0000000057">
+                    <note dur="8" xml:id="p0n39" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n43" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n45" oct="4" pname="e"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n47" dots="1" oct="4" pname="f" tie="i"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000053">
+                <layer n="5" xml:id="voice-0000000054">
+                  <note dur="4" xml:id="p0n40" dots="1" oct="4" pname="d" tie="i" accid.ges="f"/>
+                  <beam xml:id="beam-0000000058">
+                    <note dur="8" xml:id="p0n48" dots="1" oct="4" pname="d" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n49" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n50" oct="3" pname="b"/>
+                  </beam>
+                </layer>
+                <layer n="6" xml:id="voice-0000000055">
+                  <note dur="2" xml:id="p0n41" dots="1" oct="3" pname="d" accid.ges="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="5" xml:id="measure-0000000059">
+              <staff n="1" xml:id="staff-0000000060">
+                <layer n="1" xml:id="voice-0000000061">
+                  <beam xml:id="beam-0000000066">
+                    <note dur="8" xml:id="p0n51" dots="1" oct="4" pname="a" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n55" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n57" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000068">
+                    <note dur="8" xml:id="p0n59" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n61" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n63" oct="4" pname="b" accid.ges="f"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000062">
+                  <beam xml:id="beam-0000000067">
+                    <note dur="8" xml:id="p0n52" dots="1" oct="4" pname="f" tie="t"/>
+                    <note dur="16" xml:id="p0n56" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n58" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000069">
+                    <note dur="8" xml:id="p0n60" oct="4" pname="e"/>
+                    <note dur="8" xml:id="p0n62" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n64" oct="4" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000063">
+                <layer n="5" xml:id="voice-0000000064">
+                  <note dur="2" xml:id="p0n53" dots="1" oct="4" pname="c"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000065">
+                  <note dur="2" xml:id="p0n54" dots="1" oct="3" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="6" xml:id="measure-0000000070">
+              <staff n="1" xml:id="staff-0000000071">
+                <layer n="1" xml:id="voice-0000000072">
+                  <beam xml:id="beam-0000000077">
+                    <note dur="8" xml:id="p0n65" dots="1" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n69" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n71" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n73" dots="1" oct="4" pname="a" tie="i" accid.ges="f"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000073">
+                  <beam xml:id="beam-0000000078">
+                    <note dur="8" xml:id="p0n66" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n70" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n72" oct="4" pname="e"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n74" dots="1" oct="4" pname="f" tie="i"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000074">
+                <layer n="5" xml:id="voice-0000000075">
+                  <note dur="4" xml:id="p0n67" dots="1" oct="4" pname="d" tie="i" accid.ges="f"/>
+                  <beam xml:id="beam-0000000079">
+                    <note dur="8" xml:id="p0n75" dots="1" oct="4" pname="d" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n76" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n77" oct="3" pname="b"/>
+                  </beam>
+                </layer>
+                <layer n="6" xml:id="voice-0000000076">
+                  <note dur="2" xml:id="p0n68" dots="1" oct="3" pname="d" accid.ges="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="7" xml:id="measure-0000000080">
+              <staff n="1" xml:id="staff-0000000081">
+                <layer n="1" xml:id="voice-0000000082">
+                  <beam xml:id="beam-0000000087">
+                    <note dur="8" xml:id="p0n78" dots="1" oct="4" pname="a" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n82" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n84" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000089">
+                    <note dur="8" xml:id="p0n86" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n89" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n91" oct="4" pname="g"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000083">
+                  <beam xml:id="beam-0000000088">
+                    <note dur="8" xml:id="p0n79" dots="1" oct="4" pname="f" tie="t"/>
+                    <note dur="16" xml:id="p0n83" oct="4" pname="e"/>
+                    <note dur="8" xml:id="p0n85" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000090">
+                    <note dur="8" xml:id="p0n87" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n90" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n92" oct="4" pname="e"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000084">
+                <layer n="5" xml:id="voice-0000000085">
+                  <note dur="4" xml:id="p0n80" dots="1" oct="4" pname="c" tie="i"/>
+                  <note dur="4" xml:id="p0n88" oct="4" pname="c" tie="t"/>
+                  <note dur="8" xml:id="p0n93" oct="3" pname="b" accid.ges="f"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000086">
+                  <note dur="2" xml:id="p0n81" dots="1" oct="3" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="8" xml:id="measure-0000000091">
+              <staff n="1" xml:id="staff-0000000092">
+                <layer n="1" xml:id="voice-0000000093">
+                  <note dur="4" xml:id="p0n94" dots="1" oct="4" pname="g"/>
+                  <note dur="8" xml:id="p0n98" oct="4" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000094"/>
+                  <rest dur="8" xml:id="rest-0000000095"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000096">
+                  <note dur="4" xml:id="p0n95" dots="1" oct="4" pname="e"/>
+                  <note dur="8" xml:id="p0n99" oct="4" pname="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000097">
+                <layer n="5" xml:id="voice-0000000098">
+                  <note dur="4" xml:id="p0n96" dots="1" oct="3" pname="b" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n100" oct="3" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000099"/>
+                  <rest dur="8" xml:id="rest-0000000100"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000101">
+                  <note dur="4" xml:id="p0n97" dots="1" oct="3" pname="f" tie="i"/>
+                  <note dur="8" xml:id="p0n101" oct="3" pname="f" tie="t"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000102" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000103" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000104" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000105" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+            <measure n="9" xml:id="measure-0000000106">
+              <staff n="1" xml:id="staff-0000000107">
+                <layer n="1" xml:id="voice-0000000108">
+                  <note dur="8" xml:id="p0n106" oct="4" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000109"/>
+                  <note dur="8" xml:id="p0n112" oct="4" pname="a" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n115" oct="4" pname="b" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000110"/>
+                  <note dur="8" xml:id="p0n121" oct="4" pname="b" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000111">
+                <layer n="5" xml:id="voice-0000000112">
+                  <beam xml:id="beam-0000000113">
+                    <note dur="16" xml:id="p0n107" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n108" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n109" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n111" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n113" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n114" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000114">
+                    <note dur="16" xml:id="p0n116" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n117" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n118" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n120" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n122" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n123" oct="3" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="10" xml:id="measure-0000000115">
+              <staff n="1" xml:id="staff-0000000116">
+                <layer n="1" xml:id="voice-0000000117">
+                  <note dur="4" xml:id="p0n124" dots="1" oct="4" pname="b" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n131" oct="5" pname="c"/>
+                  <rest dur="8" xml:id="rest-0000000118"/>
+                  <note dur="8" xml:id="p0n137" oct="4" pname="a" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000119">
+                <layer n="5" xml:id="voice-0000000120">
+                  <beam xml:id="beam-0000000121">
+                    <note dur="16" xml:id="p0n125" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n126" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n127" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n128" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n129" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n130" oct="3" pname="g"/>
+                  </beam>
+                  <beam xml:id="beam-0000000122">
+                    <note dur="16" xml:id="p0n132" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n133" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n134" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n136" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n138" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n139" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="11" xml:id="measure-0000000123">
+              <staff n="1" xml:id="staff-0000000124">
+                <layer n="1" xml:id="voice-0000000125">
+                  <note dur="8" xml:id="p0n140" oct="5" pname="d" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000126"/>
+                  <note dur="8" xml:id="p0n146" oct="5" pname="c"/>
+                  <note dur="8" xml:id="p0n149" oct="5" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000127"/>
+                  <note dur="8" xml:id="p0n155" oct="4" pname="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000128">
+                <layer n="5" xml:id="voice-0000000129">
+                  <beam xml:id="beam-0000000130">
+                    <note dur="16" xml:id="p0n141" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n142" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n143" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n145" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n147" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n148" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000131">
+                    <note dur="16" xml:id="p0n150" oct="3" pname="d"/>
+                    <note dur="16" xml:id="p0n151" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n152" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n154" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n156" oct="3" pname="d"/>
+                    <note dur="16" xml:id="p0n157" oct="3" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="12" xml:id="measure-0000000132">
+              <staff n="1" xml:id="staff-0000000133">
+                <layer n="1" xml:id="voice-0000000134">
+                  <note dur="4" xml:id="p0n158" dots="1" oct="4" pname="a" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n165" oct="4" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000135"/>
+                  <note dur="8" xml:id="p0n171" oct="5" pname="e" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000136">
+                <layer n="5" xml:id="voice-0000000137">
+                  <beam xml:id="beam-0000000138">
+                    <note dur="16" xml:id="p0n159" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n160" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n161" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n162" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n163" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n164" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000139">
+                    <note dur="16" xml:id="p0n166" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n167" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n168" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n170" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n172" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n173" oct="3" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="13" xml:id="measure-0000000140">
+              <staff n="1" xml:id="staff-0000000141">
+                <layer n="1" xml:id="voice-0000000142">
+                  <note dur="4" xml:id="p0n174" dots="1" oct="5" pname="d"/>
+                  <note dur="8" xml:id="p0n181" oct="5" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000143"/>
+                  <rest dur="8" xml:id="rest-0000000144"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000145">
+                <layer n="5" xml:id="voice-0000000146">
+                  <beam xml:id="beam-0000000153">
+                    <note dur="16" xml:id="p0n175" oct="3" pname="f">
+                      <accid xml:id="accid-0000000147" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n176" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n177" oct="4" pname="c">
+                      <accid xml:id="accid-0000000148" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n178" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n179" oct="3" pname="f">
+                      <accid xml:id="accid-0000000149" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n180" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000154">
+                    <note dur="16" xml:id="p0n182" oct="3" pname="f">
+                      <accid xml:id="accid-0000000150" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n183" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n184" oct="4" pname="c">
+                      <accid xml:id="accid-0000000151" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n186" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n187" oct="3" pname="f">
+                      <accid xml:id="accid-0000000152" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n189" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="14" xml:id="measure-0000000155">
+              <staff n="1" xml:id="staff-0000000156">
+                <layer n="1" xml:id="voice-0000000157">
+                  <note dur="4" xml:id="p0n190" dots="1" oct="5" pname="g"/>
+                  <note dur="8" xml:id="p0n197" oct="5" pname="b" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000158"/>
+                  <rest dur="8" xml:id="rest-0000000159"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000160">
+                <layer n="5" xml:id="voice-0000000161">
+                  <beam xml:id="beam-0000000162">
+                    <note dur="16" xml:id="p0n191" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n192" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n193" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n194" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n195" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n196" oct="3" pname="g"/>
+                  </beam>
+                  <beam xml:id="beam-0000000163">
+                    <note dur="16" xml:id="p0n198" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n199" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n200" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n202" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n203" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n205" oct="3" pname="b" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="15" xml:id="measure-0000000164">
+              <staff n="1" xml:id="staff-0000000165">
+                <layer n="1" xml:id="voice-0000000166">
+                  <note dur="4" xml:id="p0n206" dots="1" oct="6" pname="c">
+                    <accid xml:id="accid-0000000167" accid="f"/>
+                  </note>
+                  <note dur="8" xml:id="p0n213" oct="5" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000168"/>
+                  <rest dur="8" xml:id="rest-0000000169"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000170">
+                <layer n="5" xml:id="voice-0000000171">
+                  <beam xml:id="beam-0000000173">
+                    <note dur="16" xml:id="p0n207" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n208" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n209" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n210" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n211" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n212" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000174">
+                    <note dur="16" xml:id="p0n214" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n215" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n216" oct="5" pname="c">
+                      <accid xml:id="accid-0000000172" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n218" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n219" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n221" oct="4" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="16" xml:id="measure-0000000175">
+              <staff n="1" xml:id="staff-0000000176">
+                <layer n="1" xml:id="voice-0000000177">
+                  <note dur="4" xml:id="p0n222" dots="1" oct="6" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n229" oct="5" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000178"/>
+                  <rest dur="8" xml:id="rest-0000000179"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000180">
+                <layer n="5" xml:id="voice-0000000181">
+                  <beam xml:id="beam-0000000182">
+                    <note dur="16" xml:id="p0n223" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n224" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n225" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n226" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n227" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n228" oct="4" pname="g"/>
+                  </beam>
+                  <beam xml:id="beam-0000000183">
+                    <note dur="16" xml:id="p0n230" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n231" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n232" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n234" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n235" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n237" oct="4" pname="e" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="17" xml:id="measure-0000000184">
+              <staff n="1" xml:id="staff-0000000185">
+                <layer n="1" xml:id="voice-0000000186">
+                  <rest dur="8" xml:id="rest-0000000187"/>
+                  <beam xml:id="beam-0000000192">
+                    <note dur="8" xml:id="p0n241" oct="5" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n244" oct="5" pname="a" accid.ges="f"/>
+                  </beam>
+                  <rest dur="8" xml:id="rest-0000000188"/>
+                  <beam xml:id="beam-0000000194">
+                    <note dur="8" xml:id="p0n250" oct="5" pname="f"/>
+                    <note dur="8" xml:id="p0n253" oct="5" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000189">
+                <layer n="5" xml:id="voice-0000000190">
+                  <beam xml:id="beam-0000000191">
+                    <note dur="16" xml:id="p0n238" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n240" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n242" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n243" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n245" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n246" oct="4" pname="e" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000193">
+                    <note dur="16" xml:id="p0n247" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n249" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n251" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n252" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n254" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n255" oct="4" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="18" xml:id="measure-0000000195">
+              <staff n="1" xml:id="staff-0000000196">
+                <layer n="1" xml:id="voice-0000000197">
+                  <rest dur="8" xml:id="rest-0000000198"/>
+                  <beam xml:id="beam-0000000203">
+                    <note dur="8" xml:id="p0n259" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n262" oct="5" pname="e" accid.ges="f"/>
+                  </beam>
+                  <rest dur="8" xml:id="rest-0000000199"/>
+                  <beam xml:id="beam-0000000205">
+                    <note dur="8" xml:id="p0n268" oct="5" pname="g"/>
+                    <note dur="8" xml:id="p0n271" oct="5" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000200">
+                <layer n="5" xml:id="voice-0000000201">
+                  <beam xml:id="beam-0000000202">
+                    <note dur="16" xml:id="p0n256" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n258" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n260" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n261" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n263" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n264" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000204">
+                    <note dur="16" xml:id="p0n265" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n267" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n269" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n270" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n272" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n273" oct="4" pname="b" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="19" xml:id="measure-0000000206">
+              <staff n="1" xml:id="staff-0000000207">
+                <layer n="1" xml:id="voice-0000000208">
+                  <note dur="4" xml:id="p0n274" oct="5" pname="a" accid.ges="f"/>
+                  <beam xml:id="beam-0000000213">
+                    <note dur="16" xml:id="p0n279" oct="6" pname="c"/>
+                    <note dur="16" xml:id="p0n281" oct="5" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000214">
+                    <chord xml:id="chord-0000000209" dur="8">
+                      <note dur="8" xml:id="p0n283" dots="1" oct="5" pname="f"/>
+                      <note dur="8" xml:id="p0n285" oct="5" pname="g" grace="acc"/>
+                    </chord>
+                    <note dur="16" xml:id="p0n288" oct="5" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n290" oct="5" pname="g"/>
+                    <note dur="16" xml:id="p0n292" oct="5" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000210">
+                <layer n="5" xml:id="voice-0000000211">
+                  <beam xml:id="beam-0000000212">
+                    <note dur="16" xml:id="p0n275" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n276" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n277" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n278" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n280" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n282" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000215">
+                    <note dur="16" xml:id="p0n284" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n286" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n287" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n289" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n291" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n293" oct="4" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="20" xml:id="measure-0000000216">
+              <staff n="1" xml:id="staff-0000000217">
+                <layer n="1" xml:id="voice-0000000218">
+                  <beam xml:id="beam-0000000222">
+                    <chord xml:id="chord-0000000219" dur="8">
+                      <note dur="8" xml:id="p0n294" dots="1" oct="5" pname="e" accid.ges="f"/>
+                      <note dur="8" xml:id="p0n296" oct="5" pname="f" grace="acc"/>
+                    </chord>
+                    <note dur="32" xml:id="p0n299" oct="5" pname="f"/>
+                    <note dur="32" xml:id="p0n301" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="32" xml:id="p0n302" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="32" xml:id="p0n304" oct="5" pname="c"/>
+                    <note dur="32" xml:id="p0n305" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="32" xml:id="p0n307" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n308" dots="1" oct="4" pname="b" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000220">
+                <layer n="5" xml:id="voice-0000000221">
+                  <beam xml:id="beam-0000000223">
+                    <note dur="16" xml:id="p0n295" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n297" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n298" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n300" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n303" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n306" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000224">
+                    <note dur="16" xml:id="p0n309" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n310" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n311" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n312" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n313" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n314" oct="3" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="21" xml:id="measure-0000000225">
+              <staff n="1" xml:id="staff-0000000226">
+                <layer n="1" xml:id="voice-0000000227">
+                  <note dur="8" xml:id="p0n315" oct="4" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000228"/>
+                  <chord xml:id="chord-0000000229" dur="8">
+                    <note dur="8" xml:id="p0n319" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n320" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n321" oct="5" pname="c"/>
+                  </chord>
+                  <chord xml:id="chord-0000000230" dur="8">
+                    <note dur="8" xml:id="p0n323" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n324" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n325" oct="5" pname="c"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000231"/>
+                  <chord xml:id="chord-0000000232" dur="8">
+                    <note dur="8" xml:id="p0n329" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n330" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n331" oct="5" pname="d" accid.ges="f"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000233">
+                <layer n="5" xml:id="voice-0000000234">
+                  <note dur="8" xml:id="p0n316" oct="3" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000235"/>
+                  <note dur="8" xml:id="p0n322" oct="3" pname="e"/>
+                  <note dur="8" xml:id="p0n326" oct="3" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000236"/>
+                  <note dur="8" xml:id="p0n332" oct="3" pname="d" accid.ges="f"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000237" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000238" staff="2" tstamp="1.0" place="below">|PAC</harm>
+            </measure>
+            <measure n="22" xml:id="measure-0000000239">
+              <staff n="1" xml:id="staff-0000000240">
+                <layer n="1" xml:id="voice-0000000241">
+                  <beam xml:id="beam-0000000252">
+                    <chord xml:id="chord-0000000242" dur="8">
+                      <note dur="8" xml:id="p0n333" dots="1" oct="4" pname="a" accid.ges="f"/>
+                      <note dur="8" xml:id="p0n334" dots="1" oct="5" pname="c"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000243" dur="16">
+                    <note dur="16" xml:id="p0n337" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n338" oct="5" pname="d" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000244" dur="8">
+                    <note dur="8" xml:id="p0n339" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n340" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000245" dur="8">
+                    <note dur="8" xml:id="p0n343" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n344" oct="4" pname="a" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000246"/>
+                  <chord xml:id="chord-0000000247" dur="8">
+                    <note dur="8" xml:id="p0n349" oct="3" pname="g"/>
+                    <note dur="8" xml:id="p0n350" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n351" oct="4" pname="c"/>
+                  </chord>
+                </layer>
+                <layer n="2" xml:id="voice-0000000248">
+                  <note dur="4" xml:id="p0n335" oct="4" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n341" oct="4" pname="d" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n345" oct="4" pname="c"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000249">
+                <layer n="5" xml:id="voice-0000000250">
+                  <note dur="4" xml:id="p0n336" oct="3" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n342" oct="2" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n346" oct="2" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000251"/>
+                  <note dur="8" xml:id="p0n352" oct="2" pname="e"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000253" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000254" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+            <measure n="23" xml:id="measure-0000000255">
+              <staff n="1" xml:id="staff-0000000256">
+                <layer n="1" xml:id="voice-0000000257">
+                  <chord xml:id="chord-0000000258" dur="8">
+                    <note dur="8" xml:id="p0n353" oct="3" pname="f"/>
+                    <note dur="8" xml:id="p0n354" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n355" oct="4" pname="c"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000259"/>
+                  <chord xml:id="chord-0000000260" dur="8">
+                    <note dur="8" xml:id="p0n359" oct="3" pname="f"/>
+                    <note dur="8" xml:id="p0n360" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n361" oct="4" pname="d" accid.ges="f"/>
+                  </chord>
+                  <beam xml:id="beam-0000000268">
+                    <chord xml:id="chord-0000000261" dur="8">
+                      <note dur="8" xml:id="p0n363" dots="1" oct="3" pname="a" accid.ges="f"/>
+                      <note dur="8" xml:id="p0n364" dots="1" oct="4" pname="c"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000262" dur="16">
+                    <note dur="16" xml:id="p0n367" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n368" oct="4" pname="d" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000263" dur="8">
+                    <note dur="8" xml:id="p0n369" oct="3" pname="g"/>
+                    <note dur="8" xml:id="p0n370" oct="3" pname="b" accid.ges="f"/>
+                  </chord>
+                </layer>
+                <layer n="2" xml:id="voice-0000000264">
+                  <note dur="4" xml:id="p0n365" oct="3" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n371" oct="3" pname="d" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000265">
+                <layer n="5" xml:id="voice-0000000266">
+                  <note dur="8" xml:id="p0n356" oct="2" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000267"/>
+                  <note dur="8" xml:id="p0n362" oct="2" pname="d" accid.ges="f"/>
+                  <note dur="4" xml:id="p0n366" oct="2" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n372" oct="2" pname="e" accid.ges="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="24" xml:id="measure-0000000269">
+              <staff n="1" xml:id="staff-0000000270">
+                <layer n="1" xml:id="voice-0000000271">
+                  <chord xml:id="chord-0000000272" dur="4">
+                    <note dur="4" xml:id="p0n373" dots="1" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="4" xml:id="p0n374" dots="1" oct="3" pname="g"/>
+                    <note dur="4" xml:id="p0n375" dots="1" oct="3" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000273" dur="8">
+                    <note dur="8" xml:id="p0n377" oct="3" pname="c"/>
+                    <note dur="8" xml:id="p0n378" oct="3" pname="a" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000274"/>
+                  <rest dur="8" xml:id="rest-0000000275"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000276">
+                <layer n="5" xml:id="voice-0000000277">
+                  <note dur="4" xml:id="p0n376" dots="1" oct="2" pname="a" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n379" oct="1" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000278"/>
+                  <rest dur="8" xml:id="rest-0000000279"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000280" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000281" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000282" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000283" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+            <measure n="25" xml:id="measure-0000000284">
+              <staff n="1" xml:id="staff-0000000285">
+                <layer n="1" xml:id="voice-0000000286">
+                  <rest dur="2" dots="1" xml:id="rest-0000000287"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000288">
+                  <beam xml:id="beam-0000000292">
+                    <note dur="8" xml:id="p0n384" dots="1" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n387" oct="5" pname="f"/>
+                    <note dur="8" xml:id="p0n388" oct="5" pname="e" accid.ges="f"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n389" oct="5" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n390" oct="5" pname="e" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000289">
+                <layer n="5" xml:id="voice-0000000290">
+                  <rest dur="2" dots="1" xml:id="rest-0000000291"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="26" xml:id="measure-0000000293">
+              <staff n="1" xml:id="staff-0000000294">
+                <layer n="1" xml:id="voice-0000000295">
+                  <note dur="4" xml:id="p0n391" oct="5" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n395" oct="5" pname="f"/>
+                  <note dur="8" xml:id="p0n397" oct="5" pname="g">
+                    <accid xml:id="accid-0000000296" accid="f"/>
+                  </note>
+                  <rest dur="8" xml:id="rest-0000000297"/>
+                  <rest dur="8" xml:id="rest-0000000298"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000299">
+                  <chord xml:id="chord-0000000300" dur="4">
+                    <note dur="4" xml:id="p0n392" dots="1" oct="4" pname="a" tie="i"/>
+                    <note dur="4" xml:id="p0n393" dots="1" oct="5" pname="c" tie="i"/>
+                  </chord>
+                  <chord xml:id="chord-0000000301" dur="8">
+                    <note dur="8" xml:id="p0n398" oct="4" pname="a" tie="t"/>
+                    <note dur="8" xml:id="p0n399" oct="5" pname="c" tie="t"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000302"/>
+                  <rest dur="8" xml:id="rest-0000000303"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000304">
+                <layer n="5" xml:id="voice-0000000305">
+                  <note dur="4" xml:id="p0n394" oct="4" pname="g">
+                    <accid xml:id="accid-0000000306" accid="f"/>
+                  </note>
+                  <note dur="8" xml:id="p0n396" oct="4" pname="f"/>
+                  <note dur="8" xml:id="p0n400" oct="4" pname="e" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000307"/>
+                  <rest dur="8" xml:id="rest-0000000308"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="27" xml:id="measure-0000000309">
+              <staff n="1" xml:id="staff-0000000310">
+                <layer n="1" xml:id="voice-0000000311">
+                  <note dur="4" xml:id="p0n407" oct="4" pname="e" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n411" oct="4" pname="f"/>
+                  <note dur="8" xml:id="p0n413" oct="4" pname="g">
+                    <accid xml:id="accid-0000000312" accid="f"/>
+                  </note>
+                  <rest dur="8" xml:id="rest-0000000313"/>
+                  <rest dur="8" xml:id="rest-0000000314"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000315">
+                  <chord xml:id="chord-0000000316" dur="4">
+                    <note dur="4" xml:id="p0n408" dots="1" oct="3" pname="a" tie="i"/>
+                    <note dur="4" xml:id="p0n409" dots="1" oct="4" pname="c" tie="i"/>
+                  </chord>
+                  <chord xml:id="chord-0000000317" dur="8">
+                    <note dur="8" xml:id="p0n414" oct="3" pname="a" tie="t"/>
+                    <note dur="8" xml:id="p0n415" oct="4" pname="c" tie="t"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000318"/>
+                  <rest dur="8" xml:id="rest-0000000319"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000320">
+                <layer n="5" xml:id="voice-0000000321">
+                  <note dur="4" xml:id="p0n410" oct="3" pname="g">
+                    <accid xml:id="accid-0000000322" accid="f"/>
+                  </note>
+                  <note dur="8" xml:id="p0n412" oct="3" pname="f"/>
+                  <note dur="8" xml:id="p0n416" oct="3" pname="e" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000323"/>
+                  <rest dur="8" xml:id="rest-0000000324"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="28" xml:id="measure-0000000325">
+              <staff n="1" xml:id="staff-0000000326">
+                <layer n="1" xml:id="voice-0000000327">
+                  <beam xml:id="beam-0000000342">
+                    <chord xml:id="chord-0000000328" dur="8">
+                      <note dur="8" xml:id="p0n423" oct="4" pname="f"/>
+                      <note dur="8" xml:id="p0n424" oct="4" pname="b" accid.ges="f"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000329" dur="8">
+                    <note dur="8" xml:id="p0n427" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n428" oct="4" pname="a"/>
+                  </chord>
+                  <chord xml:id="chord-0000000330" dur="8">
+                    <note dur="8" xml:id="p0n431" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n432" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000331" dur="8">
+                    <note dur="8" xml:id="p0n435" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n436" oct="5" pname="c"/>
+                    <note dur="8" xml:id="p0n437" oct="5" pname="e" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000332"/>
+                  <rest dur="8" xml:id="rest-0000000333"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000334">
+                <layer n="5" xml:id="voice-0000000335">
+                  <beam xml:id="beam-0000000343">
+                    <chord xml:id="chord-0000000336" dur="8">
+                      <note dur="8" xml:id="p0n425" oct="3" pname="d" accid.ges="f"/>
+                      <note dur="8" xml:id="p0n426" oct="4" pname="d" accid.ges="f"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000337" dur="8">
+                    <note dur="8" xml:id="p0n429" oct="3" pname="c"/>
+                    <note dur="8" xml:id="p0n430" oct="4" pname="c"/>
+                  </chord>
+                  <chord xml:id="chord-0000000338" dur="8">
+                    <note dur="8" xml:id="p0n433" oct="2" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n434" oct="3" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000339" dur="8">
+                    <note dur="8" xml:id="p0n438" oct="2" pname="a"/>
+                    <note dur="8" xml:id="p0n439" oct="3" pname="a"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000340"/>
+                  <rest dur="8" xml:id="rest-0000000341"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="29" xml:id="measure-0000000344">
+              <staff n="1" xml:id="staff-0000000345">
+                <layer n="1" xml:id="voice-0000000346">
+                  <rest dur="16" xml:id="rest-0000000347"/>
+                  <beam xml:id="beam-0000000358">
+                    <note dur="16" xml:id="p0n447" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n448" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n450" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n451" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n454" oct="5" pname="d" accid.ges="f"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n455" dots="1" oct="5" pname="g" tie="i">
+                    <accid xml:id="accid-0000000348" accid="f"/>
+                  </note>
+                </layer>
+                <layer n="2" xml:id="voice-0000000349">
+                  <rest dur="4" xml:id="rest-0000000350"/>
+                  <rest dur="8" xml:id="rest-0000000351"/>
+                  <rest dur="16" xml:id="rest-0000000352"/>
+                  <beam xml:id="beam-0000000359">
+                    <note dur="16" xml:id="p0n458" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n460" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n462" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n464" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n466" oct="5" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000353">
+                <layer n="5" xml:id="voice-0000000354">
+                  <note dur="8" xml:id="p0n444" oct="2" pname="b" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000355"/>
+                  <rest dur="8" xml:id="rest-0000000356"/>
+                  <rest dur="16" xml:id="rest-0000000357"/>
+                  <beam xml:id="beam-0000000360">
+                    <note dur="16" xml:id="p0n459" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n461" oct="3" pname="a"/>
+                    <note dur="16" xml:id="p0n463" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n465" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n467" oct="3" pname="b" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="30" xml:id="measure-0000000361">
+              <staff n="1" xml:id="staff-0000000362">
+                <layer n="1" xml:id="voice-0000000363">
+                  <beam xml:id="beam-0000000371">
+                    <note dur="16" xml:id="p0n468" oct="5" pname="g" tie="t">
+                      <accid xml:id="accid-0000000364" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n471" oct="5" pname="g">
+                      <accid xml:id="accid-0000000365" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n472" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n473" oct="5" pname="g">
+                      <accid xml:id="accid-0000000366" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n474" oct="5" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n475" oct="5" pname="g">
+                      <accid xml:id="accid-0000000367" accid="f"/>
+                    </note>
+                  </beam>
+                  <note dur="4" xml:id="p0n476" dots="1" oct="5" pname="f" tie="i"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000368">
+                  <note dur="4" xml:id="p0n469" dots="1" oct="5" pname="c" tie="i"/>
+                  <beam xml:id="beam-0000000372">
+                    <note dur="16" xml:id="p0n477" oct="5" pname="c" tie="t"/>
+                    <note dur="16" xml:id="p0n479" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n481" oct="4" pname="b"/>
+                    <note dur="16" xml:id="p0n483" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n485" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n487" oct="5" pname="c"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000369">
+                <layer n="5" xml:id="voice-0000000370">
+                  <note dur="4" xml:id="p0n470" dots="1" oct="3" pname="a" tie="i"/>
+                  <beam xml:id="beam-0000000373">
+                    <note dur="16" xml:id="p0n478" oct="3" pname="a" tie="t"/>
+                    <note dur="16" xml:id="p0n480" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n482" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n484" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n486" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n488" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="31" xml:id="measure-0000000374">
+              <staff n="1" xml:id="staff-0000000375">
+                <layer n="1" xml:id="voice-0000000376">
+                  <beam xml:id="beam-0000000392">
+                    <note dur="16" xml:id="p0n489" oct="5" pname="f" tie="t"/>
+                    <note dur="16" xml:id="p0n493" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n495" oct="5" pname="e"/>
+                    <note dur="16" xml:id="p0n499" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n501" oct="5" pname="g"/>
+                    <note dur="16" xml:id="p0n505" oct="5" pname="f"/>
+                  </beam>
+                  <rest dur="16" xml:id="rest-0000000377"/>
+                  <beam xml:id="beam-0000000394">
+                    <note dur="16" xml:id="p0n510" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n512" oct="5" pname="d"/>
+                    <note dur="16" xml:id="p0n515" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n517" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n520" oct="5" pname="e" accid.ges="f"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000378">
+                  <note dur="8" xml:id="p0n490" oct="4" pname="b"/>
+                  <rest dur="8" xml:id="rest-0000000379"/>
+                  <rest dur="8" xml:id="rest-0000000380"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000381">
+                <layer n="5" xml:id="voice-0000000382">
+                  <rest dur="16" xml:id="rest-0000000383"/>
+                  <beam xml:id="beam-0000000393">
+                    <note dur="16" xml:id="p0n494" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n496" oct="4" pname="c">
+                      <accid xml:id="accid-0000000384" accid="s"/>
+                    </note>
+                    <note dur="16" xml:id="p0n500" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n502" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n506" oct="4" pname="d"/>
+                  </beam>
+                  <rest dur="16" xml:id="rest-0000000385"/>
+                  <beam xml:id="beam-0000000395">
+                    <note dur="16" xml:id="p0n511" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n513" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n516" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n518" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n521" oct="4" pname="c"/>
+                  </beam>
+                </layer>
+                <layer n="6" xml:id="voice-0000000386">
+                  <note dur="8" xml:id="p0n491" oct="3" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000387"/>
+                  <rest dur="8" xml:id="rest-0000000388"/>
+                  <note dur="8" xml:id="p0n507" oct="3" pname="f">
+                    <accid xml:id="accid-0000000389" accid="s"/>
+                  </note>
+                  <rest dur="8" xml:id="rest-0000000390"/>
+                  <rest dur="8" xml:id="rest-0000000391"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="32" xml:id="measure-0000000396">
+              <staff n="1" xml:id="staff-0000000397">
+                <layer n="1" xml:id="voice-0000000398">
+                  <rest dur="2" dots="1" xml:id="rest-0000000399"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000400">
+                  <chord xml:id="chord-0000000401" dur="8">
+                    <note dur="8" xml:id="p0n522" oct="4" pname="b"/>
+                    <note dur="8" xml:id="p0n523" oct="5" pname="d"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000402"/>
+                  <rest dur="8" xml:id="rest-0000000403"/>
+                  <rest dur="4" xml:id="rest-0000000404"/>
+                  <rest dur="8" xml:id="rest-0000000405"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000406">
+                <layer n="5" xml:id="voice-0000000407">
+                  <rest dur="16" xml:id="rest-0000000408"/>
+                  <beam xml:id="beam-0000000412">
+                    <note dur="16" xml:id="p0n526" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n527" oct="3" pname="f">
+                      <accid xml:id="accid-0000000409" accid="s"/>
+                    </note>
+                    <note dur="16" xml:id="p0n529" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n530" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n532" oct="3" pname="g"/>
+                  </beam>
+                  <note dur="8" xml:id="p0n533" oct="2" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000410"/>
+                  <rest dur="8" xml:id="rest-0000000411"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="33" xml:id="measure-0000000413">
+              <staff n="1" xml:id="staff-0000000414">
+                <layer n="1" xml:id="voice-0000000415">
+                  <beam xml:id="beam-0000000422">
+                    <note dur="8" xml:id="p0n538" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n541" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n542" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n544" oct="4" pname="g"/>
+                  <note dur="8" xml:id="p0n546" oct="5" pname="c"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000416">
+                <layer n="5" xml:id="voice-0000000417">
+                  <chord xml:id="chord-0000000418" dur="4">
+                    <note dur="4" xml:id="p0n539" oct="3" pname="c"/>
+                    <note dur="4" xml:id="p0n540" oct="3" pname="e" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000419"/>
+                  <rest dur="4" xml:id="rest-0000000420"/>
+                  <rest dur="8" xml:id="rest-0000000421"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="34" xml:id="measure-0000000423">
+              <staff n="1" xml:id="staff-0000000424">
+                <layer n="1" xml:id="voice-0000000425">
+                  <note dur="4" xml:id="p0n548" dots="1" oct="5" pname="c" tie="i"/>
+                  <beam xml:id="beam-0000000436">
+                    <note dur="8" xml:id="p0n554" oct="5" pname="c" tie="t"/>
+                    <note dur="8" xml:id="p0n558" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n561" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000426">
+                  <beam xml:id="beam-0000000435">
+                    <note dur="8" xml:id="p0n549" dots="1" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n552" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n553" oct="4" pname="d"/>
+                  </beam>
+                  <note dur="8" xml:id="p0n555" oct="4" pname="d"/>
+                  <rest dur="8" xml:id="rest-0000000427"/>
+                  <rest dur="8" xml:id="rest-0000000428"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000429">
+                <layer n="5" xml:id="voice-0000000430">
+                  <chord xml:id="chord-0000000431" dur="4">
+                    <note dur="4" xml:id="p0n550" dots="1" oct="3" pname="f" tie="i"/>
+                    <note dur="4" xml:id="p0n551" dots="1" oct="3" pname="a" tie="i" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000432" dur="8">
+                    <note dur="8" xml:id="p0n556" oct="3" pname="f" tie="t"/>
+                    <note dur="8" xml:id="p0n557" oct="3" pname="a" tie="t" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000433"/>
+                  <rest dur="8" xml:id="rest-0000000434"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="35" xml:id="measure-0000000437">
+              <staff n="1" xml:id="staff-0000000438">
+                <layer n="1" xml:id="voice-0000000439">
+                  <note dur="2" xml:id="p0n564" dots="1" oct="4" pname="g" tie="i"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000440">
+                  <chord xml:id="chord-0000000441" dur="4">
+                    <note dur="4" xml:id="p0n565" dots="1" oct="3" pname="b" tie="i"/>
+                    <note dur="4" xml:id="p0n566" dots="1" oct="4" pname="d" tie="i"/>
+                  </chord>
+                  <beam xml:id="beam-0000000448">
+                    <chord xml:id="chord-0000000442" dur="8">
+                      <note dur="8" xml:id="p0n570" oct="3" pname="b" tie="t"/>
+                      <note dur="8" xml:id="p0n571" oct="4" pname="d" tie="t"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000443" dur="8">
+                    <note dur="8" xml:id="p0n573" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n574" oct="4" pname="e" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000444" dur="8">
+                    <note dur="8" xml:id="p0n575" oct="4" pname="d"/>
+                    <note dur="8" xml:id="p0n576" oct="4" pname="f"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000445">
+                <layer n="5" xml:id="voice-0000000446">
+                  <beam xml:id="beam-0000000447">
+                    <note dur="8" xml:id="p0n567" dots="1" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n568" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n569" oct="3" pname="g"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n572" dots="1" oct="3" pname="g"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="36" xml:id="measure-0000000449">
+              <staff n="1" xml:id="staff-0000000450">
+                <layer n="1" xml:id="voice-0000000451">
+                  <note dur="4" xml:id="p0n577" dots="1" oct="4" pname="g" tie="t"/>
+                  <beam xml:id="beam-0000000462">
+                    <chord xml:id="chord-0000000452" dur="8">
+                      <note dur="8" xml:id="p0n583" oct="4" pname="e"/>
+                      <note dur="8" xml:id="p0n584" oct="4" pname="g"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000453" dur="8">
+                    <note dur="8" xml:id="p0n587" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n588" oct="4" pname="a" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000454" dur="8">
+                    <note dur="8" xml:id="p0n590" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n591" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                </layer>
+                <layer n="2" xml:id="voice-0000000455">
+                  <chord xml:id="chord-0000000456" dur="4">
+                    <note dur="4" xml:id="p0n578" dots="1" oct="4" pname="c" tie="i"/>
+                    <note dur="4" xml:id="p0n579" dots="1" oct="4" pname="f"/>
+                  </chord>
+                  <note dur="8" xml:id="p0n585" oct="4" pname="c" tie="t"/>
+                  <rest dur="8" xml:id="rest-0000000457"/>
+                  <rest dur="8" xml:id="rest-0000000458"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000459">
+                <layer n="5" xml:id="voice-0000000460">
+                  <beam xml:id="beam-0000000461">
+                    <note dur="8" xml:id="p0n580" dots="1" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n581" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n582" oct="3" pname="c"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n586" dots="1" oct="3" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="37" xml:id="measure-0000000463">
+              <staff n="1" xml:id="staff-0000000464">
+                <layer n="1" xml:id="voice-0000000465">
+                  <rest dur="2" dots="1" xml:id="rest-0000000466"/>
+                </layer>
+                <layer n="3" xml:id="voice-0000000467">
+                  <beam xml:id="beam-0000000475">
+                    <chord xml:id="chord-0000000468" dur="8">
+                      <note dur="8" xml:id="p0n593" dots="1" oct="4" pname="a" accid.ges="f"/>
+                      <note dur="8" xml:id="p0n594" dots="1" oct="5" pname="c"/>
+                    </chord>
+                  </beam>
+                  <note dur="16" xml:id="p0n598" oct="5" pname="d" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n599" oct="5" pname="c"/>
+                  <note dur="4" xml:id="p0n601" oct="5" pname="c"/>
+                  <note dur="8" xml:id="p0n603" oct="5" pname="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000469">
+                <layer n="5" xml:id="voice-0000000470">
+                  <chord xml:id="chord-0000000471" dur="4">
+                    <note dur="4" xml:id="p0n595" oct="3" pname="f"/>
+                    <note dur="4" xml:id="p0n596" oct="3" pname="a" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000472"/>
+                  <rest dur="4" xml:id="rest-0000000473"/>
+                  <rest dur="8" xml:id="rest-0000000474"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="38" xml:id="measure-0000000476">
+              <staff n="1" xml:id="staff-0000000477">
+                <layer n="1" xml:id="voice-0000000478">
+                  <note dur="4" xml:id="p0n605" dots="1" oct="5" pname="f" tie="i"/>
+                  <beam xml:id="beam-0000000489">
+                    <note dur="8" xml:id="p0n611" oct="5" pname="f" tie="t"/>
+                    <note dur="8" xml:id="p0n615" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n618" oct="5" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+                <layer n="3" xml:id="voice-0000000479">
+                  <beam xml:id="beam-0000000488">
+                    <note dur="8" xml:id="p0n606" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n609" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n610" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="8" xml:id="p0n612" oct="4" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000480"/>
+                  <rest dur="8" xml:id="rest-0000000481"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000482">
+                <layer n="5" xml:id="voice-0000000483">
+                  <chord xml:id="chord-0000000484" dur="4">
+                    <note dur="4" xml:id="p0n607" dots="1" oct="3" pname="b" tie="i" accid.ges="f"/>
+                    <note dur="4" xml:id="p0n608" dots="1" oct="4" pname="d" tie="i" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000485" dur="8">
+                    <note dur="8" xml:id="p0n613" oct="3" pname="b" tie="t" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n614" oct="4" pname="d" tie="t" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000486"/>
+                  <rest dur="8" xml:id="rest-0000000487"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="39" xml:id="measure-0000000490">
+              <staff n="1" xml:id="staff-0000000491">
+                <layer n="1" xml:id="voice-0000000492">
+                  <note dur="2" xml:id="p0n621" dots="1" oct="5" pname="c"/>
+                </layer>
+                <layer n="3" xml:id="voice-0000000493">
+                  <chord xml:id="chord-0000000494" dur="4">
+                    <note dur="4" xml:id="p0n622" dots="1" oct="4" pname="e" tie="i"/>
+                    <note dur="4" xml:id="p0n623" dots="1" oct="4" pname="g" tie="i"/>
+                  </chord>
+                  <beam xml:id="beam-0000000501">
+                    <chord xml:id="chord-0000000495" dur="8">
+                      <note dur="8" xml:id="p0n627" oct="4" pname="e" tie="t"/>
+                      <note dur="8" xml:id="p0n628" oct="4" pname="g" tie="t"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000496" dur="8">
+                    <note dur="8" xml:id="p0n630" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n631" oct="4" pname="a" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000497" dur="8">
+                    <note dur="8" xml:id="p0n632" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n633" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000498">
+                <layer n="5" xml:id="voice-0000000499">
+                  <beam xml:id="beam-0000000500">
+                    <note dur="8" xml:id="p0n624" dots="1" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n625" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n626" oct="4" pname="c"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n629" dots="1" oct="4" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="40" xml:id="measure-0000000502">
+              <staff n="1" xml:id="staff-0000000503">
+                <layer n="1" xml:id="voice-0000000504">
+                  <beam xml:id="beam-0000000509">
+                    <note dur="8" xml:id="p0n634" dots="1" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n638" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n640" oct="4" pname="g"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n642" dots="1" oct="4" pname="a" tie="i" accid.ges="f"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000505">
+                  <beam xml:id="beam-0000000510">
+                    <note dur="8" xml:id="p0n635" dots="1" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n639" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n641" oct="4" pname="e"/>
+                  </beam>
+                  <note dur="4" xml:id="p0n643" dots="1" oct="4" pname="f" tie="i"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000506">
+                <layer n="5" xml:id="voice-0000000507">
+                  <note dur="4" xml:id="p0n636" dots="1" oct="4" pname="d" tie="i" accid.ges="f"/>
+                  <beam xml:id="beam-0000000511">
+                    <note dur="8" xml:id="p0n644" dots="1" oct="4" pname="d" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n645" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n646" oct="3" pname="b"/>
+                  </beam>
+                </layer>
+                <layer n="6" xml:id="voice-0000000508">
+                  <note dur="2" xml:id="p0n637" dots="1" oct="3" pname="d" accid.ges="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="41" xml:id="measure-0000000512">
+              <staff n="1" xml:id="staff-0000000513">
+                <layer n="1" xml:id="voice-0000000514">
+                  <beam xml:id="beam-0000000519">
+                    <note dur="8" xml:id="p0n647" dots="1" oct="4" pname="a" tie="t" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n651" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n653" oct="4" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000521">
+                    <note dur="8" xml:id="p0n655" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n658" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n660" oct="4" pname="g"/>
+                  </beam>
+                </layer>
+                <layer n="2" xml:id="voice-0000000515">
+                  <beam xml:id="beam-0000000520">
+                    <note dur="8" xml:id="p0n648" dots="1" oct="4" pname="f" tie="t"/>
+                    <note dur="16" xml:id="p0n652" oct="4" pname="e"/>
+                    <note dur="8" xml:id="p0n654" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000522">
+                    <note dur="8" xml:id="p0n656" oct="4" pname="g"/>
+                    <note dur="8" xml:id="p0n659" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n661" oct="4" pname="e"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000516">
+                <layer n="5" xml:id="voice-0000000517">
+                  <note dur="4" xml:id="p0n649" dots="1" oct="4" pname="c" tie="i"/>
+                  <note dur="4" xml:id="p0n657" oct="4" pname="c" tie="t"/>
+                  <note dur="8" xml:id="p0n662" oct="3" pname="b" accid.ges="f"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000518">
+                  <note dur="2" xml:id="p0n650" dots="1" oct="3" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="42" xml:id="measure-0000000523">
+              <staff n="1" xml:id="staff-0000000524">
+                <layer n="1" xml:id="voice-0000000525">
+                  <note dur="4" xml:id="p0n663" dots="1" oct="4" pname="g"/>
+                  <note dur="8" xml:id="p0n667" oct="4" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000526"/>
+                  <rest dur="8" xml:id="rest-0000000527"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000528">
+                  <note dur="4" xml:id="p0n664" dots="1" oct="4" pname="e"/>
+                  <note dur="8" xml:id="p0n668" oct="4" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000529"/>
+                  <rest dur="8" xml:id="rest-0000000530"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000531">
+                <layer n="5" xml:id="voice-0000000532">
+                  <note dur="4" xml:id="p0n665" dots="1" oct="3" pname="b" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n669" oct="3" pname="a" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000533"/>
+                  <rest dur="8" xml:id="rest-0000000534"/>
+                </layer>
+                <layer n="6" xml:id="voice-0000000535">
+                  <note dur="4" xml:id="p0n666" dots="1" oct="3" pname="f" tie="i"/>
+                  <note dur="8" xml:id="p0n670" oct="3" pname="f" tie="t"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000536" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000537" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000538" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000539" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+            <measure n="43" xml:id="measure-0000000540">
+              <staff n="1" xml:id="staff-0000000541">
+                <layer n="1" xml:id="voice-0000000542">
+                  <rest dur="2" dots="1" xml:id="rest-0000000543"/>
+                </layer>
+                <layer n="2" xml:id="voice-0000000544">
+                  <note dur="8" xml:id="p0n677" oct="5" pname="c"/>
+                  <rest dur="8" xml:id="rest-0000000545"/>
+                  <note dur="8" xml:id="p0n684" oct="5" pname="c"/>
+                  <note dur="8" xml:id="p0n687" oct="5" pname="c"/>
+                  <rest dur="8" xml:id="rest-0000000546"/>
+                  <note dur="8" xml:id="p0n693" oct="5" pname="c"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000547">
+                <layer n="5" xml:id="voice-0000000548">
+                  <beam xml:id="beam-0000000552">
+                    <note dur="16" xml:id="p0n678" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n680" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n681" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n683" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n685" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n686" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000553">
+                    <note dur="16" xml:id="p0n688" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n689" oct="3" pname="g">
+                      <accid xml:id="accid-0000000549" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n690" oct="3" pname="a"/>
+                    <note dur="16" xml:id="p0n692" oct="3" pname="g">
+                      <accid xml:id="accid-0000000550" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n694" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n695" oct="3" pname="g">
+                      <accid xml:id="accid-0000000551" accid="f"/>
+                    </note>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="44" xml:id="measure-0000000554">
+              <staff n="1" xml:id="staff-0000000555">
+                <layer n="1" xml:id="voice-0000000556">
+                  <note dur="4" xml:id="p0n696" dots="1" oct="5" pname="c"/>
+                  <note dur="8" xml:id="p0n703" oct="4" pname="b" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000557"/>
+                  <note dur="8" xml:id="p0n709" oct="4" pname="a" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000558">
+                <layer n="5" xml:id="voice-0000000559">
+                  <beam xml:id="beam-0000000560">
+                    <note dur="16" xml:id="p0n697" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n698" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n699" oct="3" pname="a"/>
+                    <note dur="16" xml:id="p0n700" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n701" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n702" oct="3" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000561">
+                    <note dur="16" xml:id="p0n704" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n705" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n706" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n708" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n710" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n711" oct="3" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="45" xml:id="measure-0000000562">
+              <staff n="1" xml:id="staff-0000000563">
+                <layer n="1" xml:id="voice-0000000564">
+                  <note dur="8" xml:id="p0n712" oct="4" pname="g">
+                    <accid xml:id="accid-0000000565" accid="f"/>
+                  </note>
+                  <rest dur="8" xml:id="rest-0000000566"/>
+                  <note dur="8" xml:id="p0n718" oct="4" pname="b" accid.ges="f"/>
+                  <chord xml:id="chord-0000000567" dur="16">
+                    <note dur="8" xml:id="p0n721" oct="4" pname="g">
+                      <accid xml:id="accid-0000000568" accid="f"/>
+                    </note>
+                    <note dur="16" xml:id="p0n723" oct="4" pname="a" accid.ges="f" grace="acc"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000569"/>
+                  <note dur="8" xml:id="p0n728" oct="4" pname="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000570">
+                <layer n="5" xml:id="voice-0000000571">
+                  <beam xml:id="beam-0000000572">
+                    <note dur="16" xml:id="p0n713" oct="2" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n714" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n715" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n717" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n719" oct="2" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n720" oct="3" pname="d" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000573">
+                    <note dur="16" xml:id="p0n722" oct="2" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n724" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n725" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n727" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n729" oct="2" pname="b"/>
+                    <note dur="16" xml:id="p0n730" oct="3" pname="a" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="46" xml:id="measure-0000000574">
+              <staff n="1" xml:id="staff-0000000575">
+                <layer n="1" xml:id="voice-0000000576">
+                  <note dur="4" xml:id="p0n731" dots="1" oct="4" pname="f"/>
+                  <note dur="8" xml:id="p0n738" oct="4" pname="e"/>
+                  <rest dur="8" xml:id="rest-0000000577"/>
+                  <note dur="8" xml:id="p0n744" oct="5" pname="c"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000578">
+                <layer n="5" xml:id="voice-0000000579">
+                  <beam xml:id="beam-0000000580">
+                    <note dur="16" xml:id="p0n732" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n733" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n734" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n735" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n736" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n737" oct="3" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000581">
+                    <note dur="16" xml:id="p0n739" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n740" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n741" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n743" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n745" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n746" oct="3" pname="e"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="47" xml:id="measure-0000000582">
+              <staff n="1" xml:id="staff-0000000583">
+                <layer n="1" xml:id="voice-0000000584">
+                  <note dur="4" xml:id="p0n747" dots="1" oct="4" pname="b"/>
+                  <note dur="8" xml:id="p0n754" oct="5" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000585"/>
+                  <rest dur="8" xml:id="rest-0000000586"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000587">
+                <layer n="5" xml:id="voice-0000000588">
+                  <beam xml:id="beam-0000000589">
+                    <note dur="16" xml:id="p0n748" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n749" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n750" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n751" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n752" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n753" oct="3" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000590">
+                    <note dur="16" xml:id="p0n755" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n756" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n757" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n759" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n760" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n762" oct="3" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="48" xml:id="measure-0000000591">
+              <staff n="1" xml:id="staff-0000000592">
+                <layer n="1" xml:id="voice-0000000593">
+                  <note dur="4" xml:id="p0n763" dots="1" oct="5" pname="e"/>
+                  <note dur="8" xml:id="p0n770" oct="5" pname="g"/>
+                  <rest dur="8" xml:id="rest-0000000594"/>
+                  <rest dur="8" xml:id="rest-0000000595"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000596">
+                <layer n="5" xml:id="voice-0000000597">
+                  <beam xml:id="beam-0000000598">
+                    <note dur="16" xml:id="p0n764" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n765" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n766" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n767" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n768" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n769" oct="3" pname="e"/>
+                  </beam>
+                  <beam xml:id="beam-0000000599">
+                    <note dur="16" xml:id="p0n771" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n772" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n773" oct="3" pname="g"/>
+                    <note dur="16" xml:id="p0n775" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n776" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n778" oct="3" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000600" staff="2" tstamp="1.0" place="below">|IAC</harm>
+              <harm xml:id="harm-0000000601" staff="2" tstamp="1.0" place="below">|IAC</harm>
+            </measure>
+            <measure n="49" xml:id="measure-0000000602">
+              <staff n="1" xml:id="staff-0000000603">
+                <layer n="1" xml:id="voice-0000000604">
+                  <note dur="4" xml:id="p0n779" dots="1" oct="5" pname="a" accid.ges="f"/>
+                  <chord xml:id="chord-0000000605" dur="16">
+                    <note dur="8" xml:id="p0n786" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n788" oct="5" pname="g" grace="acc"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000606"/>
+                  <rest dur="8" xml:id="rest-0000000607"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000608">
+                <layer n="5" xml:id="voice-0000000609">
+                  <beam xml:id="beam-0000000610">
+                    <note dur="16" xml:id="p0n780" oct="3" pname="b"/>
+                    <note dur="16" xml:id="p0n781" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n782" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n783" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n784" oct="3" pname="b"/>
+                    <note dur="16" xml:id="p0n785" oct="4" pname="d"/>
+                  </beam>
+                  <beam xml:id="beam-0000000611">
+                    <note dur="16" xml:id="p0n787" oct="3" pname="b"/>
+                    <note dur="16" xml:id="p0n789" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n790" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n792" oct="4" pname="d"/>
+                    <note dur="16" xml:id="p0n793" oct="3" pname="b"/>
+                    <note dur="16" xml:id="p0n795" oct="4" pname="d"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="50" xml:id="measure-0000000612">
+              <staff n="1" xml:id="staff-0000000613">
+                <layer n="1" xml:id="voice-0000000614">
+                  <note dur="4" xml:id="p0n796" dots="1" oct="6" pname="d" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n803" oct="5" pname="e"/>
+                  <rest dur="8" xml:id="rest-0000000615"/>
+                  <rest dur="8" xml:id="rest-0000000616"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000617">
+                <layer n="5" xml:id="voice-0000000618">
+                  <beam xml:id="beam-0000000619">
+                    <note dur="16" xml:id="p0n797" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n798" oct="4" pname="e"/>
+                    <note dur="16" xml:id="p0n799" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n800" oct="4" pname="e"/>
+                    <note dur="16" xml:id="p0n801" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n802" oct="4" pname="g"/>
+                  </beam>
+                  <beam xml:id="beam-0000000620">
+                    <note dur="16" xml:id="p0n804" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n805" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n806" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n808" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n809" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n811" oct="4" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="51" xml:id="measure-0000000621">
+              <staff n="1" xml:id="staff-0000000622">
+                <layer n="1" xml:id="voice-0000000623">
+                  <rest dur="8" xml:id="rest-0000000624"/>
+                  <beam xml:id="beam-0000000629">
+                    <note dur="8" xml:id="p0n815" oct="5" pname="f"/>
+                    <note dur="8" xml:id="p0n818" oct="5" pname="f"/>
+                  </beam>
+                  <rest dur="8" xml:id="rest-0000000625"/>
+                  <beam xml:id="beam-0000000631">
+                    <note dur="8" xml:id="p0n824" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n827" oct="5" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000626">
+                <layer n="5" xml:id="voice-0000000627">
+                  <beam xml:id="beam-0000000628">
+                    <note dur="16" xml:id="p0n812" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n814" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n816" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n817" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n819" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n820" oct="4" pname="c"/>
+                  </beam>
+                  <beam xml:id="beam-0000000630">
+                    <note dur="16" xml:id="p0n821" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n823" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n825" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n826" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n828" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n829" oct="4" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="52" xml:id="measure-0000000632">
+              <staff n="1" xml:id="staff-0000000633">
+                <layer n="1" xml:id="voice-0000000634">
+                  <rest dur="8" xml:id="rest-0000000635"/>
+                  <beam xml:id="beam-0000000640">
+                    <note dur="8" xml:id="p0n833" oct="5" pname="c"/>
+                    <note dur="8" xml:id="p0n836" oct="5" pname="c"/>
+                  </beam>
+                  <rest dur="8" xml:id="rest-0000000636"/>
+                  <beam xml:id="beam-0000000642">
+                    <note dur="8" xml:id="p0n842" oct="5" pname="e"/>
+                    <note dur="8" xml:id="p0n845" oct="5" pname="e"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000637">
+                <layer n="5" xml:id="voice-0000000638">
+                  <beam xml:id="beam-0000000639">
+                    <note dur="16" xml:id="p0n830" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n832" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n834" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n835" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n837" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n838" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000641">
+                    <note dur="16" xml:id="p0n839" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n841" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n843" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n844" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n846" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n847" oct="4" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="53" xml:id="measure-0000000643">
+              <staff n="1" xml:id="staff-0000000644">
+                <layer n="1" xml:id="voice-0000000645">
+                  <note dur="4" xml:id="p0n848" oct="5" pname="f"/>
+                  <beam xml:id="beam-0000000649">
+                    <note dur="16" xml:id="p0n853" oct="6" pname="c"/>
+                    <note dur="16" xml:id="p0n855" oct="5" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000650">
+                    <note dur="16" xml:id="p0n857" oct="5" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n859" oct="5" pname="g"/>
+                    <note dur="16" xml:id="p0n861" oct="6" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n863" oct="5" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n865" oct="5" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n867" oct="5" pname="g"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000646">
+                <layer n="5" xml:id="voice-0000000647">
+                  <beam xml:id="beam-0000000648">
+                    <note dur="16" xml:id="p0n849" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n850" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n851" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n852" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n854" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n856" oct="4" pname="c"/>
+                  </beam>
+                  <beam xml:id="beam-0000000651">
+                    <note dur="16" xml:id="p0n858" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n860" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n862" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n864" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n866" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n868" oct="4" pname="d" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="54" xml:id="measure-0000000652">
+              <staff n="1" xml:id="staff-0000000653">
+                <layer n="1" xml:id="voice-0000000654">
+                  <chord xml:id="chord-0000000655" dur="16">
+                    <note dur="4" xml:id="p0n869" dots="1" oct="5" pname="f"/>
+                    <note dur="16" xml:id="p0n871" oct="5" pname="g" grace="acc"/>
+                  </chord>
+                  <note dur="4" xml:id="p0n877" dots="1" oct="5" pname="g">
+                    <accid xml:id="accid-0000000656" accid="f"/>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000657">
+                <layer n="5" xml:id="voice-0000000658">
+                  <beam xml:id="beam-0000000659">
+                    <note dur="16" xml:id="p0n870" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n872" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n873" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n874" oct="4" pname="f"/>
+                    <note dur="16" xml:id="p0n875" oct="4" pname="c"/>
+                    <note dur="16" xml:id="p0n876" oct="4" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000660">
+                    <note dur="16" xml:id="p0n878" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n879" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n880" oct="3" pname="a"/>
+                    <note dur="16" xml:id="p0n881" oct="3" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n882" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n883" oct="3" pname="e" accid.ges="f"/>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="55" xml:id="measure-0000000661">
+              <staff n="1" xml:id="staff-0000000662">
+                <layer n="1" xml:id="voice-0000000663">
+                  <beam xml:id="beam-0000000666">
+                    <note dur="8" xml:id="p0n884" oct="5" pname="f"/>
+                    <note dur="8" xml:id="p0n887" oct="5" pname="g"/>
+                    <note dur="8" xml:id="p0n890" oct="5" pname="a" accid.ges="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000668">
+                    <note dur="8" xml:id="p0n893" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n896" oct="4" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n899" oct="4" pname="b"/>
+                  </beam>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000664">
+                <layer n="5" xml:id="voice-0000000665">
+                  <beam xml:id="beam-0000000667">
+                    <note dur="16" xml:id="p0n885" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n886" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n888" oct="3" pname="b"/>
+                    <note dur="16" xml:id="p0n889" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n891" oct="3" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n892" oct="3" pname="f"/>
+                  </beam>
+                  <beam xml:id="beam-0000000669">
+                    <note dur="16" xml:id="p0n894" oct="3" pname="d"/>
+                    <note dur="16" xml:id="p0n895" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n897" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n898" oct="3" pname="f"/>
+                    <note dur="16" xml:id="p0n900" oct="3" pname="d"/>
+                    <note dur="16" xml:id="p0n901" oct="3" pname="f"/>
+                  </beam>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000670" staff="2" tstamp="1.0" place="below">|IAC</harm>
+              <harm xml:id="harm-0000000671" staff="2" tstamp="1.0" place="below">|IAC</harm>
+            </measure>
+            <measure n="56" xml:id="measure-0000000672">
+              <staff n="1" xml:id="staff-0000000673">
+                <layer n="1" xml:id="voice-0000000674">
+                  <beam xml:id="beam-0000000680">
+                    <note dur="16" xml:id="p0n902" oct="5" pname="c"/>
+                    <note dur="16" xml:id="p0n904" oct="5" pname="d" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n905" oct="5" pname="d"/>
+                    <note dur="16" xml:id="p0n907" oct="5" pname="e" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n908" oct="5" pname="e"/>
+                    <note dur="16" xml:id="p0n910" oct="5" pname="f"/>
+                  </beam>
+                  <chord xml:id="chord-0000000675" dur="32">
+                    <note dur="4" xml:id="p0n911" dots="1" oct="4" pname="g"/>
+                    <note dur="32" xml:id="p0n913" oct="4" pname="f" grace="acc"/>
+                    <note dur="32" xml:id="p0n914" oct="4" pname="a" accid.ges="f" grace="acc"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000676">
+                <layer n="5" xml:id="voice-0000000677">
+                  <note dur="8" xml:id="p0n903" oct="3" pname="c"/>
+                  <rest dur="8" xml:id="rest-0000000678"/>
+                  <rest dur="8" xml:id="rest-0000000679"/>
+                  <beam xml:id="beam-0000000681">
+                    <note dur="16" xml:id="p0n912" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n915" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n916" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="16" xml:id="p0n917" oct="3" pname="e"/>
+                    <note dur="16" xml:id="p0n918" oct="3" pname="c"/>
+                    <note dur="16" xml:id="p0n919" oct="3" pname="e"/>
+                  </beam>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000682" staff="2" tstamp="1.0" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000683" staff="2" tstamp="1.0" place="below">|PAC</harm>
+            </measure>
+            <measure n="57" xml:id="measure-0000000684">
+              <staff n="1" xml:id="staff-0000000685">
+                <layer n="1" xml:id="voice-0000000686">
+                  <note dur="8" xml:id="p0n920" oct="4" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000687"/>
+                  <chord xml:id="chord-0000000688" dur="8">
+                    <note dur="8" xml:id="p0n924" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n925" oct="4" pname="e" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n926" oct="4" pname="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000689" dur="8">
+                    <note dur="8" xml:id="p0n928" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n929" oct="4" pname="d" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n930" oct="4" pname="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000690"/>
+                  <chord xml:id="chord-0000000691" dur="8">
+                    <note dur="8" xml:id="p0n934" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n935" oct="5" pname="d" accid.ges="f"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000692">
+                <layer n="5" xml:id="voice-0000000693">
+                  <note dur="8" xml:id="p0n921" oct="3" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000694"/>
+                  <note dur="8" xml:id="p0n927" oct="2" pname="a"/>
+                  <note dur="8" xml:id="p0n931" oct="2" pname="b" accid.ges="f"/>
+                  <rest dur="8" xml:id="rest-0000000695"/>
+                  <note dur="8" xml:id="p0n936" oct="2" pname="b" accid.ges="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="58" xml:id="measure-0000000696">
+              <staff n="1" xml:id="staff-0000000697">
+                <layer n="1" xml:id="voice-0000000698">
+                  <beam xml:id="beam-0000000710">
+                    <chord xml:id="chord-0000000699" dur="8">
+                      <note dur="8" xml:id="p0n937" dots="1" oct="4" pname="f"/>
+                      <note dur="8" xml:id="p0n938" dots="1" oct="4" pname="a" accid.ges="f"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000700" dur="16">
+                    <note dur="16" xml:id="p0n941" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n942" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000701" dur="8">
+                    <note dur="8" xml:id="p0n943" oct="4" pname="e"/>
+                    <note dur="8" xml:id="p0n944" oct="4" pname="g"/>
+                  </chord>
+                  <note dur="8" xml:id="p0n947" oct="4" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000702"/>
+                  <chord xml:id="chord-0000000703" dur="8">
+                    <note dur="8" xml:id="p0n952" oct="4" pname="g">
+                      <accid xml:id="accid-0000000704" accid="f"/>
+                    </note>
+                    <note dur="8" xml:id="p0n953" oct="5" pname="e" accid.ges="f"/>
+                  </chord>
+                </layer>
+                <layer n="2" xml:id="voice-0000000705">
+                  <note dur="4" xml:id="p0n939" oct="4" pname="c"/>
+                  <note dur="8" xml:id="p0n945" oct="3" pname="b" accid.ges="f"/>
+                  <note dur="8" xml:id="p0n948" oct="3" pname="a" accid.ges="f"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000706">
+                <layer n="5" xml:id="voice-0000000707">
+                  <note dur="4" xml:id="p0n940" oct="3" pname="c"/>
+                  <note dur="8" xml:id="p0n946" oct="2" pname="c"/>
+                  <note dur="8" xml:id="p0n949" oct="2" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000708"/>
+                  <chord xml:id="chord-0000000709" dur="8">
+                    <note dur="8" xml:id="p0n954" oct="2" pname="a"/>
+                    <note dur="8" xml:id="p0n955" oct="3" pname="a"/>
+                  </chord>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000711" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000712" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+            <measure n="59" xml:id="measure-0000000713">
+              <staff n="1" xml:id="staff-0000000714">
+                <layer n="1" xml:id="voice-0000000715">
+                  <chord xml:id="chord-0000000716" dur="8">
+                    <note dur="8" xml:id="p0n956" oct="4" pname="f"/>
+                    <note dur="8" xml:id="p0n957" oct="5" pname="d" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000717"/>
+                  <chord xml:id="chord-0000000718" dur="8">
+                    <note dur="8" xml:id="p0n962" oct="4" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n963" oct="5" pname="f"/>
+                  </chord>
+                  <beam xml:id="beam-0000000728">
+                    <chord xml:id="chord-0000000719" dur="8">
+                      <note dur="8" xml:id="p0n966" dots="1" oct="4" pname="f"/>
+                      <note dur="8" xml:id="p0n967" dots="1" oct="4" pname="a" accid.ges="f"/>
+                    </chord>
+                  </beam>
+                  <chord xml:id="chord-0000000720" dur="16">
+                    <note dur="16" xml:id="p0n969" oct="4" pname="g"/>
+                    <note dur="16" xml:id="p0n970" oct="4" pname="b" accid.ges="f"/>
+                  </chord>
+                  <chord xml:id="chord-0000000721" dur="8">
+                    <note dur="8" xml:id="p0n971" oct="4" pname="e"/>
+                    <note dur="8" xml:id="p0n972" oct="4" pname="g"/>
+                  </chord>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000722">
+                <layer n="5" xml:id="voice-0000000723">
+                  <chord xml:id="chord-0000000724" dur="8">
+                    <note dur="8" xml:id="p0n958" oct="2" pname="b" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n959" oct="3" pname="b" accid.ges="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000725"/>
+                  <chord xml:id="chord-0000000726" dur="8">
+                    <note dur="8" xml:id="p0n964" oct="3" pname="b"/>
+                    <note dur="8" xml:id="p0n965" oct="4" pname="d"/>
+                  </chord>
+                  <note dur="4" xml:id="p0n968" oct="4" pname="c"/>
+                  <chord xml:id="chord-0000000727" dur="8">
+                    <note dur="8" xml:id="p0n973" oct="3" pname="c"/>
+                    <note dur="8" xml:id="p0n974" oct="3" pname="b" accid.ges="f"/>
+                  </chord>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="60" xml:id="measure-0000000729">
+              <staff n="1" xml:id="staff-0000000730">
+                <layer n="1" xml:id="voice-0000000731">
+                  <chord xml:id="chord-0000000732" dur="4">
+                    <note dur="4" xml:id="p0n975" dots="1" oct="3" pname="b" accid.ges="f"/>
+                    <note dur="4" xml:id="p0n976" dots="1" oct="4" pname="e"/>
+                    <note dur="4" xml:id="p0n977" dots="1" oct="4" pname="g"/>
+                  </chord>
+                  <chord xml:id="chord-0000000733" dur="8">
+                    <note dur="8" xml:id="p0n979" oct="3" pname="a" accid.ges="f"/>
+                    <note dur="8" xml:id="p0n980" oct="4" pname="c"/>
+                    <note dur="8" xml:id="p0n981" oct="4" pname="f"/>
+                  </chord>
+                  <rest dur="8" xml:id="rest-0000000734"/>
+                  <rest dur="8" xml:id="rest-0000000735"/>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="staff-0000000736">
+                <layer n="5" xml:id="voice-0000000737">
+                  <note dur="4" xml:id="p0n978" dots="1" oct="3" pname="f"/>
+                  <note dur="8" xml:id="p0n982" oct="2" pname="f"/>
+                  <rest dur="8" xml:id="rest-0000000738"/>
+                  <rest dur="8" xml:id="rest-0000000739"/>
+                </layer>
+              </staff>
+              <harm xml:id="harm-0000000740" staff="2" tstamp="2.5" place="below">|PAC</harm>
+              <harm xml:id="harm-0000000741" staff="2" tstamp="2.5" place="below">|PAC</harm>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

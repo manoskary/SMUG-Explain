@@ -1,0 +1,26 @@
+g.note.playing {
+  fill: rgb(20, 140, 220);
+}  
+
+#instructions {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+g.note.annotated {
+  fill: rgb(110, 167, 6);
+}
+
+g.note.clicked {
+  fill: rgb(238, 20, 20);
+}
+
+/* .btn {
+  background-color: #ddd;
+  color: black;
+}
+
+.btn.active {
+  background-color: #4CAF50;
+  color: white;
+} */
