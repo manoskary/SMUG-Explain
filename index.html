@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Graph Visualization</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">	
+  </head>
+  <body>
+    <div class='container-fluid'>
+      <div class='controls p-3' style="height: 10vh;">
+        <div class="d-flex w-100">
+          <form class="form-inline mb-3">
+            <div class="form-group mr-3">
+              <label for="json-file-input" class="mr-2">Upload JSON graph annotation:</label>
+              <input type="file" id="json-file-input" class="form-control-file" />
+            </div>
+            <div class="form-group mr-3">
+              <label for="mei-file-input" class="mr-2">Upload MEI score file:</label>
+              <input type="file" id="mei-file-input" class="form-control-file" />
+            </div>
+          </form>
+          <div class="btn-group mb-3" role="group" aria-label="Toggle between input graph and explanations">
+            <button type="button" class="btn btn-secondary" id="inputGraphButton">Input Graph</button>
+            <button type="button" class="btn btn-secondary" id="explanationsButton">Explanations</button>
+          </div>
+          <div class="audio_commands mb-3 ml-auto">
+            <button id="playMIDI" class="btn btn-primary mr-2">Play</button>
+            <button id="stopMIDI" class="btn btn-primary">Stop</button>
+          </div>
+        </div>
+        <div id="instructions" class="alert alert-info">Upload JSON graph annotation first.</div>
+      </div>
+      <div class='output' style="height: 50vh;">
+        <div id="output" style="height: 100%; overflow-x: scroll; overflow-y: hidden;"></div>
+      </div>
+      <div class='feature_importance' style="height: 40vh;">
+        <div id="feature_importance" style="height: 100%;"></div>
+      </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="http://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js" defer></script>
+    <script src="scripts/displayScoreScripts.js" defer></script>
+    <script src='https://www.midijs.net/lib/midi.js'></script> <!-- A JavaScript MIDI player -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </body>
+</html>
