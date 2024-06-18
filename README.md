@@ -10,7 +10,7 @@ applied to arbitrary prediction tasks on musical scores. SMUG-Explain allows the
 visualize the contribution of input notes (and note features) to the network output, 
 directly in the context of the musical score. We provide an interactive interface based 
 on the music notation engraving library Verovio. We showcase the usage of SMUG-Explain on 
-the task of cadence detection in classical music. 
+the task of cadence detection in classical music. Read our paper [here](https://arxiv.org/abs/2405.09241).
 
 
 ## Installation and Usage
