@@ -335,23 +335,34 @@ function displayScoreWithGraph(scoreFile, graph_annotation, verovioTk) {
 //     }
 // }
 
+function getNoteBBox(pageElement, noteId) {
+    // Always select the <g> by ID
+    const g = pageElement.querySelector(`#${noteId}`);
+    if (!g) return null;
+    // Try to find the first <use> child
+    const use = g.querySelector('use');
+    if (use) {
+        return use.getBBox();
+    } else {
+        // Fallback to <g> itself
+        return g.getBBox();
+    }
+}
+
 function addEdges(edgeType, jsonGraphAnnotation, pageElement, zip, color) {
-    // if the edge type is not in the json file, return
     if (!(edgeType in jsonGraphAnnotation)) {
         console.warn(`Edge type '${edgeType}' not found in annotation.`);
         return;
     }
     for (const [start, end] of zip(jsonGraphAnnotation[edgeType][0], jsonGraphAnnotation[edgeType][1])) {
-        // Try to select the note element robustly
-        let element1 = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
-        let element2 = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
-        if (!element1 || !element2) {
+        const id1 = jsonGraphAnnotation.id[start];
+        const id2 = jsonGraphAnnotation.id[end];
+        const bbox1 = getNoteBBox(pageElement, id1);
+        const bbox2 = getNoteBBox(pageElement, id2);
+        if (!bbox1 || !bbox2) {
             console.warn(`Could not find SVG elements for edge: ${start} -> ${end}`);
             continue;
         }
-        // Use getBBox to get coordinates
-        const bbox1 = element1.getBBox();
-        const bbox2 = element2.getBBox();
         const x1 = bbox1.x + bbox1.width / 2;
         const y1 = bbox1.y + bbox1.height / 2;
         const x2 = bbox2.x + bbox2.width / 2;
@@ -365,26 +376,19 @@ function addEdges(edgeType, jsonGraphAnnotation, pageElement, zip, color) {
         pathElement.setAttribute("stroke", color);
         pathElement.setAttribute("stroke-width", "30");
         pathElement.setAttribute("class", `${edgeType}_edge`);
-        // append the id of the starting note as a class
-        pathElement.classList.add(`${jsonGraphAnnotation.id[start]}_input_edge`);
+        pathElement.classList.add(`${id1}_input_edge`);
         pageElement.appendChild(pathElement);
-        // make the edges invisible by default
         pathElement.setAttribute("visibility", "hidden");
-        // set opacity to 0.5
         pathElement.setAttribute("stroke-opacity", "0.5");
-        // Debug log for each edge
         console.log(`Edge created: ${start} -> ${end}`, {x1, y1, x2, y2, pathElement});
     }
-    // Debug log for SVG structure
     console.log('SVG pageElement after adding edges:', pageElement);
 }
-
 
 function addExplanations(jsonGraphAnnotation, pageElement, zip, color) {
     const note_ids = jsonGraphAnnotation["id"]
     for (const note_idx in note_ids) {
         const note_id = note_ids[note_idx]
-        // check if note_id is in the jsonGraphAnnotation
         if (!(note_id in jsonGraphAnnotation)) {
             continue;
         }
@@ -392,25 +396,20 @@ function addExplanations(jsonGraphAnnotation, pageElement, zip, color) {
         const during_edges = jsonGraphAnnotation[note_id]["during"]
         const rest_edges = jsonGraphAnnotation[note_id]["rest"]
         const consecutive_edges = jsonGraphAnnotation[note_id]["consecutive"]
-        // join all edges together each one is of shape [src_notes, dest_notes]
-        // concatenate all the arrays together on the first axis
         const all_src_edges = onset_edges[0].concat(during_edges[0], rest_edges[0], consecutive_edges[0])
         const all_dest_edges = onset_edges[1].concat(during_edges[1], rest_edges[1], consecutive_edges[1])
         for (const [start, end] of zip(all_src_edges, all_dest_edges)) {
-            // when start or end is "," skip
             if (start == "," || end == ",") {
                 continue;
             }
-            // Try to select the note element robustly
-            let src_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
-            let dest_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
-            if (!src_note || !dest_note) {
+            const id1 = jsonGraphAnnotation.id[start];
+            const id2 = jsonGraphAnnotation.id[end];
+            const bbox1 = getNoteBBox(pageElement, id1);
+            const bbox2 = getNoteBBox(pageElement, id2);
+            if (!bbox1 || !bbox2) {
                 console.warn(`Could not find SVG elements for explanation edge: ${start} -> ${end}`);
                 continue;
             }
-            // Use getBBox to get coordinates
-            const bbox1 = src_note.getBBox();
-            const bbox2 = dest_note.getBBox();
             const x1 = bbox1.x + bbox1.width / 2;
             const y1 = bbox1.y + bbox1.height / 2;
             const x2 = bbox2.x + bbox2.width / 2;
@@ -419,15 +418,11 @@ function addExplanations(jsonGraphAnnotation, pageElement, zip, color) {
             pathElement.setAttribute("d", `M ${x1} ${y1} L ${x2} ${y2}`);
             pathElement.setAttribute("stroke", color);
             pathElement.setAttribute("stroke-width", "20");
-            // set the line to be dashed
             pathElement.setAttribute("stroke-dasharray", "10, 10");
-            // set the line to have opacity 0.5
             pathElement.setAttribute("stroke-opacity", "0.5");
             pathElement.setAttribute("class", `explanation_edge`);
-            // append the id of the starting note as a class
             pathElement.classList.add(`${note_id}_explanation_edge`);
             pageElement.appendChild(pathElement);
-            // make the edges invisible by default
             pathElement.setAttribute("visibility", "hidden");
         }
     }
