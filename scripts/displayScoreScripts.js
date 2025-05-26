@@ -335,18 +335,27 @@ function displayScoreWithGraph(scoreFile, graph_annotation, verovioTk) {
 //     }
 // }
 
-function addEdges(edgeType,jsonGraphAnnotation, pageElement, zip, color) {
+function addEdges(edgeType, jsonGraphAnnotation, pageElement, zip, color) {
     // if the edge type is not in the json file, return
     if (!(edgeType in jsonGraphAnnotation)) {
+        console.warn(`Edge type '${edgeType}' not found in annotation.`);
         return;
     }
     for (const [start, end] of zip(jsonGraphAnnotation[edgeType][0], jsonGraphAnnotation[edgeType][1])) {
         const element1 = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
         const element2 = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
-        const x1 = element1.x.animVal.value + (element1.width.animVal.value / 5);
-        const y1 = element1.y.animVal.value;
-        const x2 = element2.x.animVal.value + (element2.width.animVal.value / 5);
-        const y2 = element2.y.animVal.value;
+        if (!element1 || !element2) {
+            console.warn(`Could not find SVG elements for edge: ${start} -> ${end}`);
+            continue;
+        }
+        const x1 = element1.x?.animVal?.value + (element1.width?.animVal?.value / 5);
+        const y1 = element1.y?.animVal?.value;
+        const x2 = element2.x?.animVal?.value + (element2.width?.animVal?.value / 5);
+        const y2 = element2.y?.animVal?.value;
+        if ([x1, y1, x2, y2].some(v => isNaN(v))) {
+            console.warn(`Invalid coordinates for edge: ${start} -> ${end}`, {x1, y1, x2, y2});
+            continue;
+        }
         const pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
         pathElement.setAttribute("d", `M ${x1} ${y1} L ${x2} ${y2}`);
         pathElement.setAttribute("stroke", color);
@@ -359,7 +368,11 @@ function addEdges(edgeType,jsonGraphAnnotation, pageElement, zip, color) {
         pathElement.setAttribute("visibility", "hidden");
         // set opacity to 0.5
         pathElement.setAttribute("stroke-opacity", "0.5");
+        // Debug log for each edge
+        console.log(`Edge created: ${start} -> ${end}`, {x1, y1, x2, y2, pathElement});
     }
+    // Debug log for SVG structure
+    console.log('SVG pageElement after adding edges:', pageElement);
 }
 
 
