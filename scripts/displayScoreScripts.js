@@ -342,16 +342,20 @@ function addEdges(edgeType, jsonGraphAnnotation, pageElement, zip, color) {
         return;
     }
     for (const [start, end] of zip(jsonGraphAnnotation[edgeType][0], jsonGraphAnnotation[edgeType][1])) {
-        const element1 = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
-        const element2 = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
+        // Try to select the note element robustly
+        let element1 = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
+        let element2 = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
         if (!element1 || !element2) {
             console.warn(`Could not find SVG elements for edge: ${start} -> ${end}`);
             continue;
         }
-        const x1 = element1.x?.animVal?.value + (element1.width?.animVal?.value / 5);
-        const y1 = element1.y?.animVal?.value;
-        const x2 = element2.x?.animVal?.value + (element2.width?.animVal?.value / 5);
-        const y2 = element2.y?.animVal?.value;
+        // Use getBBox to get coordinates
+        const bbox1 = element1.getBBox();
+        const bbox2 = element2.getBBox();
+        const x1 = bbox1.x + bbox1.width / 2;
+        const y1 = bbox1.y + bbox1.height / 2;
+        const x2 = bbox2.x + bbox2.width / 2;
+        const y2 = bbox2.y + bbox2.height / 2;
         if ([x1, y1, x2, y2].some(v => isNaN(v))) {
             console.warn(`Invalid coordinates for edge: ${start} -> ${end}`, {x1, y1, x2, y2});
             continue;
@@ -397,12 +401,20 @@ function addExplanations(jsonGraphAnnotation, pageElement, zip, color) {
             if (start == "," || end == ",") {
                 continue;
             }
-            const src_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
-            const dest_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
-            const x1 = src_note.x.animVal.value + (src_note.width.animVal.value / 5);
-            const y1 = src_note.y.animVal.value;
-            const x2 = dest_note.x.animVal.value + (dest_note.width.animVal.value / 5);
-            const y2 = dest_note.y.animVal.value;
+            // Try to select the note element robustly
+            let src_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[start]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[start]} use`);
+            let dest_note = pageElement.querySelector(`#${jsonGraphAnnotation.id[end]}`) || pageElement.querySelector(`#${jsonGraphAnnotation.id[end]} use`);
+            if (!src_note || !dest_note) {
+                console.warn(`Could not find SVG elements for explanation edge: ${start} -> ${end}`);
+                continue;
+            }
+            // Use getBBox to get coordinates
+            const bbox1 = src_note.getBBox();
+            const bbox2 = dest_note.getBBox();
+            const x1 = bbox1.x + bbox1.width / 2;
+            const y1 = bbox1.y + bbox1.height / 2;
+            const x2 = bbox2.x + bbox2.width / 2;
+            const y2 = bbox2.y + bbox2.height / 2;
             const pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
             pathElement.setAttribute("d", `M ${x1} ${y1} L ${x2} ${y2}`);
             pathElement.setAttribute("stroke", color);
