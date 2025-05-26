@@ -24,3 +24,10 @@ g.note.clicked {
   background-color: #4CAF50;
   color: white;
 } */
+
+/* Ensure all custom edges are visible and styled */
+path[class$="_edge"] {
+  stroke-opacity: 0.8 !important;
+  stroke-width: 4 !important;
+  visibility: visible !important;
+}
