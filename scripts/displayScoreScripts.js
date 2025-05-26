@@ -254,6 +254,10 @@ function displayScoreWithGraph(scoreFile, graph_annotation, verovioTk) {
         verovioTk.loadData(meiXML);
         const svgString = verovioTk.renderToSVG(1, {});
         svgElement = new DOMParser().parseFromString(svgString, "image/svg+xml").documentElement;
+        // add the verovio score to the html page FIRST
+        const outputDiv = document.getElementById("output");
+        outputDiv.innerHTML = ""; // clear previous SVGs
+        outputDiv.appendChild(svgElement);
         // get verovio pageElement which have the correct coordinates for notes
         const pageElemnt = svgElement.querySelector(".page-margin");
         // define the zip function to iterate over json annotations
@@ -261,64 +265,35 @@ function displayScoreWithGraph(scoreFile, graph_annotation, verovioTk) {
             const length = Math.min(...arrays.map((array) => array.length));
             return Array.from({ length }, (_, i) => arrays.map((array) => array[i]));
         };
-        // add the input edges
-        // add the consecutive edges
+        // add the input edges (now that SVG is in DOM)
         addEdges("consecutive", graph_annotation, pageElemnt, zip, "red");   
-        // add the onset edges
         addEdges("onset", graph_annotation, pageElemnt, zip, "blue");
-        // add the during edges
         addEdges("during", graph_annotation, pageElemnt, zip, "green");
-        // add the rest edges
         addEdges("rest", graph_annotation,  pageElemnt, zip, "yellow");
-        // add the explanations
         addExplanations(graph_annotation, pageElemnt, zip, "purple");
-
-
-
-
-        // add the verovio score to the html page
-        const outputDiv = document.getElementById("output");
-        outputDiv.appendChild(svgElement);
-
         //event listeners if an element with class note is clicked in the svg
-        const notes = document.querySelectorAll(".note");
+        const notes = svgElement.querySelectorAll(".note");
         notes.forEach((note) => {
             note.addEventListener("click", (event) => {
-                // remove "clicked" class from all the notes that have that
-                const clickedNotes = document.querySelectorAll(".clicked");
+                const clickedNotes = svgElement.querySelectorAll(".clicked");
                 clickedNotes.forEach((note) => {
                     note.classList.remove("clicked");
                 });
-                
-                // make all the other edges invisible
-                const otherEdges = document.querySelectorAll(`[class$=_edge]:not(.${note.id}_explanation_edge)`);
+                const otherEdges = svgElement.querySelectorAll(`[class$=_edge]:not(.${note.id}_explanation_edge)`);
                 otherEdges.forEach((edge) => {
                     edge.setAttribute("visibility", "hidden");
                 });
-
                 console.log(note.id);
                 if (document.getElementById('explanationsButton').classList.contains('active')) {
-                
-                    // make all the explanation edges of the note visible
-                    const explanationEdges = document.querySelectorAll(`.${note.id}_explanation_edge`);
+                    const explanationEdges = svgElement.querySelectorAll(`.${note.id}_explanation_edge`);
                     explanationEdges.forEach((edge) => {
                         edge.setAttribute("visibility", "visible");
                     });
-
-                    // add clicked class
                     note.classList.add("clicked");
-
-                    // print the feature_importance values in the feature_importance div element
                     print_feature_importance(graph_annotation, note.id);
-
-
                 }
-
             });
-                
-    });
-
-        
+        });
     };
 }
 
