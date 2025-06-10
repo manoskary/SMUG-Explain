@@ -26,8 +26,8 @@ g.note.clicked {
 } */
 
 /* Ensure all custom edges are visible and styled */
-path[class$="_edge"] {
-  stroke-opacity: 0.8 !important;
-  stroke-width: 4 !important;
-  visibility: visible !important;
-}
+/*path[class$="_edge"] {*/
+/*  stroke-opacity: 0.8 !important;*/
+/*  stroke-width: 4 !important;*/
+/*  visibility: visible !important;*/
+/*}*/
