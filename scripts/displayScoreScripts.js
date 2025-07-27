@@ -71,9 +71,20 @@ verovio.module.onRuntimeInitialized = async _ => {
     // event listener for the json file input
     jsonFileInput.addEventListener("change", (event) => {
         const file = event.target.files[0];
+        if (!file) return;
+
+        clearPreviousVisuals();
+        jsonData = null;
+
         const reader = new FileReader();
         reader.addEventListener("load", (event) => {
-            jsonData = JSON.parse(event.target.result); // Store the parsed JSON data in the global variable
+            try {
+                jsonData = JSON.parse(event.target.result); // Store the parsed JSON data in the global variable
+            } catch (err) {
+                instructions.textContent = "Invalid JSON file.";
+                return;
+            }
+
             if (meiFile !== null) {
                 displayScoreWithGraph(meiFile, jsonData, tk);
                 instructions.textContent = "Click on notes corresponding to cadences to display explanations.";
@@ -89,7 +100,12 @@ verovio.module.onRuntimeInitialized = async _ => {
 
     // event listener for the mei input
     meifileInput.addEventListener("change", (event) => {
-        meiFile = event.target.files[0];
+        const file = event.target.files[0];
+        if (!file) return;
+
+        clearPreviousVisuals();
+        meiFile = file;
+
         // check if the json file has been uploaded
         if (jsonData === null) {
             instructions.textContent = "Upload the JSON file first";
@@ -100,6 +116,12 @@ verovio.module.onRuntimeInitialized = async _ => {
             instructions.textContent = "Use toggle above to move between Input graph and explanations.";
         }
     });
+
+    // clear visuals function
+    function clearPreviousVisuals() {
+        const svgContainer = document.getElementById("output");
+        if (svgContainer) svgContainer.innerHTML = "";
+    }
 
     // event listeners for the toggle checkboxes
     document.getElementById('inputGraphButton').addEventListener('click', function() {
